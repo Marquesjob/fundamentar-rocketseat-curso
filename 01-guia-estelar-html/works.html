@@ -1,0 +1,171 @@
+<h1>Main Menu</h1>
+
+<nav>
+    <ul>
+        <li>
+            <a href="index.html"  style="text-decoration: none;">Index</a>
+        </li>
+        <li>
+            <a href="contact.html" style="text-decoration: none;">Contact</a>
+        </li>
+        <li>
+            <a href="./files/images.html" style="text-decoration: none;">Images</a>
+        </li>
+    </ul>
+</nav>
+
+<h1>Hypertext Markup Language</h1>
+
+<p>No site há uma <strong>DOCUMENTAÇÃO</strong> e lá existem muitas outras coisas sobre o <strong>HTML</strong>.</p>
+<p>Clique <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">AQUI</a> para acessar o site!</p>
+
+<h2> Estrutura de listas em HTML UL para listas não ordenadas</h2>
+
+<h3>Ingredientes:</h3>
+
+<ul>
+    <li>3 folhas de couve;</li>
+    <li>1 laranja;</li>
+    <li>1 gengibre;</li>
+    <li>300 ml de água;</li>
+    <li>adoçante a gosto;</li>
+    <li>gelo a gosto;</li>
+</ul>
+
+<h2> Estrutura de listas ordenadas em HTML</h2>
+
+<h3>Ingredientes:</h3>
+<ol>
+    <li>3 folhas de couve;</li>
+    <li>1 laranja;</li>
+    <li>1 gengibre;</li>
+    <li>300 ml de água;</li>
+    <li>adoçante a gosto;</li>
+    <li>gelo a gosto;</li>
+</ol>
+
+<h2> Tag / Estrutura de citação em HTML</h2>
+
+<blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote">
+    O <strong>Elemento HTML<code> &lt;blockquote&gt; </code></strong> (Ou <em>HTML Block quotation Element</em>)
+    indica que um texto externo foi citado.
+</blockquote>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De acordo com a
+    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote">
+        <cite>MDN</cite>
+    </a>
+</p>
+
+<p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O elemento quote —  
+    <code>&lt;q&gt;</code> — 
+    <q cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/q">
+        Este elemento destina-se a citações curtas que não requerem &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;marcações de parágrafo
+    </q> -- 
+    <a style="text-decoration: none;" href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/q"">
+        <cite >MDN q page</cite>
+    </a>.
+</p>
+
+<h2>Abreviações [ abbr ] </h2>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Usamos o <abbr title="Hypertext Markup Language">HTML</abbr>
+    para estruturar nossos documentos da WEB.
+</p>
+
+<h2>Detalhes de contato [ Adresss ]</h2>
+
+<address>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mayk Brito</p>
+    <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Campo Grande, MS</strong>
+</address>
+
+<h2>Estrutura de Glossário</h2>
+
+<dl>
+    <dt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hypertext (titulo)</dt>
+    <dd>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;É um hyper texto com possibilidades..(Conteúdo)</dd>
+</dl>
+
+<h2>Tags para Representação de código</h2>
+    
+    <!--Partes genéricas (pequenas) de código.-->
+    <code></code>
+
+    <!--Blocos maiores de código-->
+    <pre>
+        <code>
+            <xmp>
+                <pre><code></code></pre>
+            </xmp>
+        </code>
+    </pre>
+
+
+<h2>Estrutura para criar tabelas em HTML</h2>
+<table  border="true">
+    <caption style="margin-bottom: 10px; text-transform: uppercase;">Estrutura:</caption>
+
+    <thead>
+        <tr>
+            <th>COLUNA 1</th> <!--th para títulos-->
+            <th>COLUNA 2</th>    
+        </tr>
+    </thead>
+    
+    <tbody>
+        <tr>
+            <td>elemento 1 coluna 1</td>
+            <td>elemento 1 coluna 2</td>
+        </tr>
+        <tr>
+            <td>elemento 2 coluna 1</td>
+            <td>elemento 2 coluna 2</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<h2 >Estrutura para tabelas complexas em HTML / Utilizando colgroup para feedback visual</h2>
+<table border="#" style="color: white;">
+
+    <caption  style="color: black; margin-bottom: 10px; text-transform: uppercase;">Estrutura:</caption>
+
+    <colgroup>
+        <col style="background-color: green;">
+        <col span="2" style="background-color: blue;">
+        <col span="2" style="background-color: red;">
+    </colgroup>
+
+    <thead>
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2">Afonso Pena</th> <!--"colspan" Define a quantidade de espaço que uma coluna ocupará-->
+            <th colspan="2">Antônia Pereira</th>
+        </tr>
+        <tr>
+            <th>Produzidos</th>
+            <th>Vendidos</th>
+            <th>Produzidos</th>
+            <th>Vendidos</th>
+        </tr>
+    </thead>
+
+    <tbody style="border: none;">
+        <tr>
+            <th>Vassouras</th>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <th>Rodos</th>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+        </tr>
+    </tbody>
+</table>

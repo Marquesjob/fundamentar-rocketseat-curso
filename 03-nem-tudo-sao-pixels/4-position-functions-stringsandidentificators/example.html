@@ -1,0 +1,25 @@
+<style>
+    body {
+        height: 100vh;
+        margin: 0;
+    }
+
+    .box {
+        height:calc(100% - 50px); /*pegará 100% da altura e removerá 40 pixels*/
+        width:100%;;
+        background-image:url(http://source.unsplash.com/randm);
+        background-repeat: no-repeat;
+        background-position: bottom-right;
+    }
+
+    .box::after {
+        content: "Aqui vem alguma mensagem";
+        color: white;
+    }
+
+
+</style>
+
+<body>
+    <div class="box"></div>
+</body>
