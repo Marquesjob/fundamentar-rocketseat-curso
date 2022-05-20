@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+p {
+    font-family: 'Times New Roman',  sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+
+    font-variant: small-caps;
+    letter-spacing: 4px;
+
+    line-height: 2.6;
+    text-transform: uppercase;
+    text-decoration: underline rgb(219, 138, 138);
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(133, 133, 133),
+                 2px 2px 1px rgb(43, 43, 43);
+
+}
