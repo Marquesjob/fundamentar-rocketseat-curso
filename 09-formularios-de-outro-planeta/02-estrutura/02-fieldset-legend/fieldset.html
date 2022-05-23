@@ -1,0 +1,45 @@
+<!--
+    <fieldset>
+        - Agrupamento de campos
+        - Mesmo propósito
+        - Semantico
+        - acessibilidade
+
+        Atributos especiais:
+
+        - disabled
+            - Desabilita todos os elementos internos
+            - Não serão enviados ao submeter o formulário
+        - form
+            - O ID de um formulário aoqual esse fieldset pertence
+            - Não precisa estar dentro de um form
+        - name
+            - nome do grupo
+        
+    <legend>
+        - Nome do agrupamento
+        - primeiro elemento dentro do fieldset
+
+    EXTRAS:
+
+        Para que serve o fieldset?
+        R: Para criar um agrupamento.
+
+        Para que serve o legend?
+        R: Para dar titulo ao agrupamento
+
+        - Você pode criar um fieldset fora da tag form, e informar ao fieldset ao qual form ele pertence utilizando o id do form que ele pertencerá.
+        OBS: Isso não é uma prática semântica.
+-->
+
+<form action="">
+    <fieldset>
+        <legend>Contato</legend>
+
+        <label for="">Nome</label>
+        <input type="text">
+
+        <label for="">Number</label>
+        <input type="number">
+    </fieldset>
+</form>
