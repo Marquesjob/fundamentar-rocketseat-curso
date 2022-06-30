@@ -2,8 +2,6 @@
 
 ## O que é?
 - Adicionar significado à uma linguagem
-
-## Web Semântica
 - Controlar a organização e apresentação do conteúdo HTML.
 - Cada site é único, entretanto, existem padrões ou convenções, que nós identificamos
 intencionalmente ou não intencionalmente.
