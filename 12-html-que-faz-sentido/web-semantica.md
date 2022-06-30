@@ -8,7 +8,7 @@
 - Cada site é único, entretanto, existem padrões ou convenções, que nós identificamos
 intencionalmente ou não intencionalmente.
 
-### Explicando mais
+## Explicando mais
 - Ao usar uma marcação semântica consistente, para identificar os elementos da página, nós
 ajudamos os 'user agents' a identificar corretamente os elementos e apresenta-los aos 
 visitantes da página.
